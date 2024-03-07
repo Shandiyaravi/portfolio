@@ -1,30 +1,30 @@
 [
     {
       "title": "HTML",
-      "imageSrc": "htmlIcon.png"
+      "imageSrc": "../../../assets/htmlIcon.png"
     },
     {
       "title": "CSS",
-      "imageSrc": "cssIcon.png"
+      "imageSrc": "../../../assets/cssIcon.png"
     },
     {
       "title": "React",
-      "imageSrc": "reactIcon.png"
+      "imageSrc": "../../../assets/reactIcon.png"
     },
     {
       "title": "Javascript",
-      "imageSrc": "javascript.png"
+      "imageSrc": "../../../assets/javascript.png"
     },
     {
       "title": "Bootstrap",
-      "imageSrc": "bootstrap.png"
+      "imageSrc": "../../../assets/bootstrap.png"
     },
     {
       "title": "Tailwind CSS",
-      "imageSrc": "tailwind.png"
+      "imageSrc": "../../../assets/tailwind.png"
     },
     {
       "title": "Figma",
-      "imageSrc": "figma.png"
+      "imageSrc": "../../../assets/figma.png"
     }
   ]

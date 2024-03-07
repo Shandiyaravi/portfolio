@@ -1,8 +1,8 @@
 import React from 'react';
-import email from 'gmail.png';
-import linkedin from 'linkedin.png';
-import github from 'github.png';
-import resume from 'resume.png';
+import email from '../../../assets/gmail.png';
+import linkedin from '../../../assets/linkedin.png';
+import github from '../../../assets/github.png';
+import resume from '../../../assets/resume.png';
 import styles from './footer.module.css';
 
 const Footer = () => {
