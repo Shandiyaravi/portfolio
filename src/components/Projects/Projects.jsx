@@ -4,7 +4,6 @@ import styles from './Projects.module.css';
 
 import projects from '../../data/projects.json';
 import { ProjectContainer } from './ProjectContainer';
-import BackToTop from '../BackToTop/BackToTop';
 
 export const Projects = () => {
   return (
