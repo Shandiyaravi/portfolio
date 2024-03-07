@@ -1,0 +1,80 @@
+@import "../../vars.css";
+*{
+    box-sizing: border-box;
+    font-family: var(--font-roboto);
+}
+
+.wrapper{
+    width:100%;
+    height:auto;
+    display:flex;
+    flex-direction: column;
+    
+}
+.container {
+margin:1rem;
+    
+  background-color: var(--color-primary);
+}
+
+.text h2 {
+  font-size: 80px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  color: var(--color-bg);
+}
+
+.text p {
+  font-size: 40px;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+.links {
+  display: flex;
+    justify-content: center;
+  align-items: center;
+  list-style: none;
+  gap: 10px;
+}
+
+
+
+.link a {
+  color: var(--color-bg);
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+}
+
+.subcontainer{
+    width:100%;
+    height:auto;
+    background-color: orange;
+}
+
+.subcontainer p{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 830px) {
+  .container {
+    flex-direction: column;
+    gap: 23px;
+  }
+
+  .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .links {
+    align-items: center;
+  }
+}

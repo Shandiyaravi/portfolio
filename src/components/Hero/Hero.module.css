@@ -1,0 +1,143 @@
+
+@import "../../vars.css";
+
+.wrapper{
+   
+    margin:0.2rem 0.2rem;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+    gap:1rem;
+   background-image: url("../../../assets/background.jpeg");
+   background-repeat: no-repeat;
+   background-size: cover;
+    z-index: 1;
+    padding:80px 20px;
+   
+   
+    
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: var(--color-text);
+    z-index: 1;
+  }
+  
+  .title {
+    font-size: 110px;
+    font-weight: 900;
+    margin-bottom: 33px;
+    font-family: var(--font-roboto);
+    background: url("../../../assets/orange-daisy-flowers-260nw-151046423.webp");
+    background-position: 0 0;
+    background-clip: text;
+    -webkit-text-fill-color: #5b728a54;
+    animation: animatedOne 10s linear infinite;
+   
+   
+  }
+  
+  @keyframes animatedOne {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 100% 0;
+    }
+}
+  .description {
+    font-size: 30px;
+    font-family: var(--font-roboto);
+    margin-bottom: 52px;
+  }
+  
+  .contactBtn {
+    text-decoration: none;
+    background-color: var(--color-bg);
+    color: var(--color-primary);
+    border-radius: 100px;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 17px 26px;
+    
+  }
+
+  .contactBtn:hover{
+    background-color:orange;
+    color:var(--color-text);
+  }
+  
+  .heroImg {
+    width: 40%;
+    z-index: 1;
+  
+    animation-name: floating;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
+  
+  @keyframes floating {
+    0% {
+      transform: translate(0, 0px);
+    }
+    50% {
+      transform: translate(0, 10px);
+    }
+    100% {
+      transform: translate(0, -0px);
+    }
+  }
+
+  @media screen and (max-width: 1100px){
+    .heroImg{
+        width:50%;
+    }
+    .title{
+        font-size: 50px;
+    }
+    .description{
+        font-size:25px;
+    }
+  }
+  
+  
+  @media screen and (max-width: 850px) {
+    .container {
+      flex-direction: column-reverse;
+      
+    }
+  
+    .content {
+     align-items: center;
+      text-align: center;
+    }
+
+    .title{
+        font-size: 50px;
+       }
+  }
+
+  @media screen and (max-width: 600px){
+   .title{
+    font-size: 50px;
+   }
+
+   .contactBtn{
+    font-size: 25px;
+    padding:13px 20px;
+   }
+  }
+
+  @media screen and (max-width: 380px){
+    .title{
+     font-size: 25px;
+    }
+   }

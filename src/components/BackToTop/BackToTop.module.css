@@ -1,0 +1,24 @@
+
+
+
+
+
+.backToTopBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    background-color: darkgrey;
+    color: black;
+    border: none;
+    font-size: 40px;
+    border-radius: 100%;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .backToTopBtn:hover {
+    opacity: 0.8;
+  }
+  
