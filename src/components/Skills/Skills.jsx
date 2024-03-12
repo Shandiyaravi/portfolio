@@ -1,5 +1,5 @@
 import styles from './Skills.module.css';
-import data from '../../data/data.json';
+import Technologies from '../../data/data.js';
 
 import React from 'react';
 
@@ -9,13 +9,13 @@ const Skills = () => {
       <h2 className={styles.heading}>Skills</h2>
       <div className={styles.container}>
         <div className={styles.skills}>
-          {data.map((data, id) => {
+          {Technologies.map((Technology, id) => {
             return (
               <div key={id} className={styles.skill}>
                 <div className={styles.skillImageContainer}>
-                  <img src={data.imageSrc} alt={data.title} />
+                  <img src={Technology.imageSrc} alt={Technology.title} />
                 </div>
-                <p>{data.title}</p>
+                <p>{Technology.title}</p>
               </div>
             );
           })}

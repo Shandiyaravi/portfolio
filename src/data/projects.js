@@ -1,7 +1,7 @@
-[
+const Projects=[
     {
       "title": "HI LIBRARY",
-      "imageSrc": "/assets/HILibrary.png",
+      "imageSrc": "../assets/HILibrary.png",
       "description": "HyperIsland Library is a collection of books fetched via Google API where the user can buy or loan a book! ",
       "skills": ["React", "BootStrap"],
       "GitHub": "https://github.com/Shandiyaravi/HI-Library.git",
@@ -9,7 +9,7 @@
     },
     {
       "title": "Hungry Chef",
-      "imageSrc": "/assets/HungryChef.png",
+      "imageSrc": "../assets/HungryChef.png",
       "description": "Hungry Chef is a website where user can look for different recipes of food from different cuisine! ",
       "skills": ["React", "BootStrap", "SEO"],
       "GitHub": "https://github.com/Shandiyaravi/Hungry-Chef.git",
@@ -17,7 +17,7 @@
     },
     {
       "title": "Typing Game",
-      "imageSrc": "/assets/TypingGame.png",
+      "imageSrc": "../assets/TypingGame.png",
       "description": "Typing Game is where the user has to type as fast as  he can to earn the points before the words falling from top fade away ",
       "skills": ["HTML", "CSS", "JavaScript"],
       "GitHub": "https://github.com/Shandiyaravi/TypingGame.git",
@@ -26,4 +26,4 @@
 
     
   ]
-  
+  export default Projects;
