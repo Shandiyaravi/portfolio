@@ -1,7 +1,14 @@
+import HILibrary from '../assets/HILibrary.png';
+import HungryChef from '../assets/HungryChef.png';
+import TypingGame from '../assets/TypingGame.png';
+
+
+
+
 const Projects=[
     {
       "title": "HI LIBRARY",
-      "imageSrc": "../assets/HILibrary.png",
+      "imageSrc": HILibrary,
       "description": "HyperIsland Library is a collection of books fetched via Google API where the user can buy or loan a book! ",
       "skills": ["React", "BootStrap"],
       "GitHub": "https://github.com/Shandiyaravi/HI-Library.git",
@@ -9,7 +16,7 @@ const Projects=[
     },
     {
       "title": "Hungry Chef",
-      "imageSrc": "../assets/HungryChef.png",
+      "imageSrc": HungryChef,
       "description": "Hungry Chef is a website where user can look for different recipes of food from different cuisine! ",
       "skills": ["React", "BootStrap", "SEO"],
       "GitHub": "https://github.com/Shandiyaravi/Hungry-Chef.git",
@@ -17,7 +24,7 @@ const Projects=[
     },
     {
       "title": "Typing Game",
-      "imageSrc": "../assets/TypingGame.png",
+      "imageSrc": TypingGame,
       "description": "Typing Game is where the user has to type as fast as  he can to earn the points before the words falling from top fade away ",
       "skills": ["HTML", "CSS", "JavaScript"],
       "GitHub": "https://github.com/Shandiyaravi/TypingGame.git",

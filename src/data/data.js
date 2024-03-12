@@ -1,31 +1,39 @@
+import htmlIcon from '../assets/htmlIcon.png';
+import cssIcon from '../assets/cssIcon.png';
+import reactIcon from '../assets/reactIcon.png';
+import javascriptIcon from '../assets/javascript.png';
+import bootstrapIcon from '../assets/bootstrap.png';
+import tailwindIcon from '../assets/tailwind.png';
+import figmaIcon from '../assets/figma.png';
+
 const Technologies=[
     {
       "title": "HTML",
-      "imageSrc": "../assets/htmlIcon.png"
+      "imageSrc": htmlIcon,
     },
     {
       "title": "CSS",
-      "imageSrc": "../assets/cssIcon.png"
+      "imageSrc": cssIcon,
     },
     {
       "title": "React",
-      "imageSrc": "../assets/reactIcon.png"
+      "imageSrc": reactIcon,
     },
     {
       "title": "Javascript",
-      "imageSrc": "../assets/javascript.png"
+      "imageSrc": javascriptIcon,
     },
     {
       "title": "Bootstrap",
-      "imageSrc": "../assets/bootstrap.png"
+      "imageSrc": bootstrapIcon,
     },
     {
       "title": "Tailwind CSS",
-      "imageSrc": "../assets/tailwind.png"
+      "imageSrc": tailwindIcon,
     },
     {
       "title": "Figma",
-      "imageSrc": "../assets/figma.png"
+      "imageSrc": figmaIcon,
     }
   ]
 
