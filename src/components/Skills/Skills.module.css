@@ -29,7 +29,7 @@
     color: var(--color-text);
       margin:3% ;
     padding:1rem;
-    background-image: url("../../../assets/skillbg.avif");
+    background-image: url("../../assets/skillbg.avif");
     background-repeat: no-repeat;
     background-size: cover;
 
