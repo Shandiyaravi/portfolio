@@ -4,36 +4,37 @@
 .wrapper{
    
     margin:0.2rem 0.2rem;
+    max-width: 100%;
+   
 }
 
 .container {
     position: relative;
     display: flex;
     align-items: center;
-   justify-content: space-between;
-    gap:1rem;
-   background-image: url("../../../assets/background.jpeg");
+   justify-content: center;
+    gap:2rem;
+   background-image: url("../../../assets/background.jpg");
    background-repeat: no-repeat;
    background-size: cover;
     z-index: 1;
-    padding:80px 20px;
-   
-   
-    
+    padding:60px 30px;
   }
   
   .content {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    gap:0.2rem;
     color: var(--color-text);
     z-index: 1;
+    padding:1rem 0.5rem;
   }
   
   .title {
-    font-size: 110px;
+    font-size: 80px;
     font-weight: 900;
-    margin-bottom: 33px;
+    margin-bottom: 20px;
     font-family: var(--font-roboto);
     background: url("../../assets/orange-daisy-flowers-260nw-151046423.webp");
     background-position: 0 0;
@@ -53,9 +54,9 @@
     }
 }
   .description {
-    font-size: 30px;
+    font-size: 25px;
     font-family: var(--font-roboto);
-    margin-bottom: 52px;
+    margin-bottom: 40px;
   }
   
   .contactBtn {
@@ -77,9 +78,8 @@
   .heroImg {
     width: 40%;
     z-index: 1;
-  
     animation-name: floating;
-    animation-duration: 2s;
+    animation-duration: 5s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
   }

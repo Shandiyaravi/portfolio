@@ -1,6 +1,7 @@
 import HILibrary from '../assets/HILibrary.png';
 import HungryChef from '../assets/HungryChef.png';
 import TypingGame from '../assets/TypingGame.png';
+import Todo from '../assets/Todo.png';
 
 
 
@@ -21,6 +22,14 @@ const Projects=[
       "skills": ["React", "BootStrap", "SEO"],
       "GitHub": "https://github.com/Shandiyaravi/Hungry-Chef.git",
       "Live": "https://hungry-chef-by-shandiyaravichandran.netlify.app/"
+    },
+    {
+      "title": "Todo App",
+      "imageSrc": Todo,
+      "description": "Todo App is a simple web application where the user can add, delete and mark the task as completed!",
+      "skills": [ "React","node.js","Express.js","PostgreSQL"],
+      "GitHub": "https://github.com/Shandiyaravi/ToDoApp.git",
+      "Live": "https://to-do-app-lcha.vercel.app/"
     },
     {
       "title": "Typing Game",

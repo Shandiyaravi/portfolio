@@ -26,7 +26,7 @@ const Footer = () => {
             </a>
           </li>
           <li className={styles.link}>
-            <a href=''>
+            <a href='https://drive.google.com/file/d/14rscARFMqzXhd1Penq4iv6sGpx4lcLzG/view?usp=sharing'>
               <img src={resume} alt='resume icon' />
             </a>
           </li>

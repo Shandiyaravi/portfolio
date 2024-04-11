@@ -77,10 +77,10 @@
     justify-content: center;
    margin:4rem 0rem;
     align-items: center;
-    gap:4rem;
+    gap:3rem;
     
     height: 58vh; /* Full height of the viewport */
-    width: 80vw; /* Full width of the viewport */
+    width: 85vw; /* Full width of the viewport */
     
     border-radius: 10px;
    
@@ -89,7 +89,7 @@
 
   .menuItems a{
     
-    padding:0.8rem 1.5rem;
+    padding:0.5rem 1.2rem;
     border: 1px solid grey;
     background-color: orange;
     color:var(--color-text);

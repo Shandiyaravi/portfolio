@@ -4,7 +4,9 @@ import reactIcon from '../assets/reactIcon.png';
 import javascriptIcon from '../assets/javascript.png';
 import bootstrapIcon from '../assets/bootstrap.png';
 import tailwindIcon from '../assets/tailwind.png';
-import figmaIcon from '../assets/figma.png';
+import postgresql from '../assets/postgresql.png';
+import nodejs from '../assets/nodejs.png';
+
 
 const Technologies=[
     {
@@ -32,9 +34,13 @@ const Technologies=[
       "imageSrc": tailwindIcon,
     },
     {
-      "title": "Figma",
-      "imageSrc": figmaIcon,
-    }
+      "title": "node js",
+      "imageSrc":nodejs,
+    },
+    {
+      "title": "PostgreSQL",
+      "imageSrc":postgresql ,
+    },
   ]
 
   export default Technologies;

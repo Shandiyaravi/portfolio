@@ -10,7 +10,7 @@ const About = () => {
           <li>Harmony Enthusiast🌿</li>
           <li>Curious Explorer🌍</li>
           <li>Creative Thinker💡</li>
-          <li>Passionate plant parent 🪴</li>
+          <li>Plant Lover🪴</li>
           <li>Passionate Dog Enthusiast 🐾</li>
           <li>Collaborative Team Player 🤝</li>
         </ul>

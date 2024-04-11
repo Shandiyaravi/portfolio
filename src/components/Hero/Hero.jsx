@@ -15,7 +15,7 @@ const Hero = () => {
             more!
           </p>
           <a href='mailto:shandiyaravi@gmail.com' className={styles.contactBtn}>
-            Hire Me
+            Contact
           </a>
         </div>
         <img

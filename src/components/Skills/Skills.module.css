@@ -18,7 +18,7 @@
     padding: 0.3rem 0.3rem;
     width: 100%;
     background-color: var(--color-bg);
-    font-size: 35px;
+    font-size: 25px;
     font-weight: 700;
     letter-spacing: 1.75px;
     text-transform: uppercase;
@@ -27,7 +27,7 @@
 
 .container {
     color: var(--color-text);
-   margin:3% ;
+      margin:3% ;
     padding:1rem;
     background-image: url("../../../assets/skillbg.avif");
     background-repeat: no-repeat;
@@ -55,26 +55,27 @@
   }
   
   .skillImageContainer {
-    background-color: var(--color-secondary);
+    background-color:rgb(37, 36, 36);
     border-radius: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 120px;
     height: 120px;
-    animation-name: rotate;
-    animation-duration: 15s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
+   
   }
-  
-  @keyframes rotate{
-    from{ transform: rotate(-360deg); }
-    to{ transform: rotate(360deg); }
-}
+
   .skillImageContainer img {
     width: 75px;
+    transition: transform 0.5s ease;
   }
+
+  .skillImageContainer img:hover{
+   transform: scale(0.9) rotate(360deg);
+  }
+  
+ 
+  
   
   @media screen and (max-width: 830px) {
    
