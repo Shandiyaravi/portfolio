@@ -101,7 +101,7 @@
         width:50%;
     }
     .title{
-        font-size: 50px;
+        font-size: 35px;
     }
     .description{
         font-size:25px;
@@ -127,8 +127,8 @@
   
 
    .contactBtn{
-    font-size: 25px;
-    padding:13px 20px;
+    font-size: 22px;
+    padding:10px 18px;
    }
   }
 
@@ -136,4 +136,8 @@
     .title{
      font-size: 25px;
     }
+    .contactBtn{
+      font-size: 20px;
+      padding:10px 18px;
+     }
    }

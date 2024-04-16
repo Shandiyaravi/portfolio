@@ -52,6 +52,7 @@
     .list {
         font-size: 26px;
         flex-direction: column;
+        align-items: flex-start;
     }
     
 }
