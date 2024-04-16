@@ -7,12 +7,12 @@ const About = () => {
       <h2 className={styles.heading}>Who Am I?</h2>
       <div className={styles.container}>
         <ul className={styles.list}>
-          <li>Harmony Enthusiast🌿</li>
-          <li>Curious Explorer🌍</li>
-          <li>Creative Thinker💡</li>
-          <li>Plant Lover🪴</li>
-          <li>Passionate Dog Enthusiast 🐾</li>
+          <li>Adaptive Learner 📚</li>
+          <li>Resilient Problem Solver 💪</li>
+          <li>Proactive Communicator 📢</li>
+          <li>Patient and Calm Under Pressure ⏳</li>
           <li>Collaborative Team Player 🤝</li>
+          <li>Empathetic Listener 🎧</li>
         </ul>
       </div>
     </section>

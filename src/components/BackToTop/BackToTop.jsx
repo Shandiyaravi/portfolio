@@ -29,7 +29,7 @@ const BackToTop = () => {
       style={{ display: isVisible ? 'block' : 'none' }}
       onClick={scrollToTop}
     >
-      <img src='../../../assets/arrow.png'></img>
+      <img src='../assets/arrow.png'></img>
     </button>
   );
 };
