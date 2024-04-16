@@ -45,3 +45,11 @@
     font-size: 35px; 
    
 }
+
+
+@media screen and (max-width: 768px) {
+    .list {
+        font-size: 26px;
+    }
+    
+}

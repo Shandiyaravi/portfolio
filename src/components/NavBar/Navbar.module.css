@@ -75,14 +75,14 @@
     display: none;
     flex-direction: column;
     justify-content: center;
-   margin:4rem 0rem;
+   margin:1rem 0rem;
     align-items: center;
     gap:3rem;
     
-    height: 58vh; /* Full height of the viewport */
+    height: 100vh; /* Full height of the viewport */
     width: 85vw; /* Full width of the viewport */
     
-    border-radius: 10px;
+    border-radius: 6px;
    
   }
 
@@ -90,8 +90,8 @@
   .menuItems a{
     
     padding:0.5rem 1.2rem;
-    border: 1px solid grey;
-    background-color: orange;
+    border: 1px solid orange;
+    background-color: black;
     color:var(--color-text);
     border-radius: 20px;
     text-align: center; /* Center the text */

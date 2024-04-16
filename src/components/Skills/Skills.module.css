@@ -85,5 +85,17 @@
       flex-direction: row;
       justify-content: center;
     }
+
+    .skillImageContainer {
+      
+      width: 90px;
+      height: 90px;
+     
+    }
+
+    .skillImageContainer img {
+      width: 60px;
+      transition: transform 0.5s ease;
+    }
 }
   
