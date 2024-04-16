@@ -39,7 +39,7 @@
     background: url("../../../assets/orange-daisy-flowers-260nw-151046423.webp");
     background-position: 0 0;
     background-clip: text;
-    -webkit-text-fill-color: #5b728a54;
+     -webkit-text-fill-color: transparent; 
     animation: animatedOne 10s linear infinite;
    
    
