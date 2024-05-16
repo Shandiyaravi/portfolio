@@ -43,7 +43,7 @@ const Projects=[
     {
       "title": "Mentatt",
       "imageSrc": mentatt1,
-      "description": "Mentatt's offerings to highlighting success stories,paving the way for meaningful connections",
+      "description": "Project for the Client Mentatt,created a responsive webpage aimed at amplifying Mentatt's presence in Eastern Africa.",
       "skills": ["next.js", "TailwindCSS","Storybook"],
       "Live": "https://mentatt.vercel.app/"
     }
