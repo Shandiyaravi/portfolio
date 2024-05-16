@@ -21,10 +21,16 @@ export const ProjectContainer = ({
           })}
         </ul>
         <div className={styles.links}>
-          <a href={Github} className={styles.link}>
-            Github
-          </a>
-          <a href={Live} className={styles.link}>
+          {title !== 'Mentatt' ? (
+            <a href={Github} className={styles.githubLink}>
+              GitHub
+            </a>
+          ) : (
+            <button className={styles.disabledButton} disabled>
+              GitHub
+            </button>
+          )}
+          <a href={Live} className={styles.githubLink}>
             Live
           </a>
         </div>

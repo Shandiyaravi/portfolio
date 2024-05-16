@@ -8,10 +8,7 @@
     
 }
 
-.wrapper{
-   
-   
-}
+
 
 .heading {
     color: var(--color-primary);
@@ -46,3 +43,5 @@
   gap: 15px;
   max-width: 100%;
 }
+
+

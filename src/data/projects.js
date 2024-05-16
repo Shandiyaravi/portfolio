@@ -2,6 +2,7 @@ import HILibrary from '../assets/HILibrary.png';
 import HungryChef from '../assets/HungryChef.png';
 import TypingGame from '../assets/TypingGame.png';
 import Todo from '../assets/Todo.png';
+import mentatt1 from '../assets/mentatt1.png';
 
 
 
@@ -38,6 +39,13 @@ const Projects=[
       "skills": ["HTML", "CSS", "JavaScript"],
       "GitHub": "https://github.com/Shandiyaravi/TypingGame.git",
       "Live": "https://raindropsbyhss.netlify.app/"
+    },
+    {
+      "title": "Mentatt",
+      "imageSrc": mentatt1,
+      "description": "Mentatt's offerings to highlighting success stories,paving the way for meaningful connections",
+      "skills": ["next.js", "TailwindCSS","Storybook"],
+      "Live": "https://mentatt.vercel.app/"
     }
 
     

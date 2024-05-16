@@ -60,7 +60,7 @@
   padding: 1px 0;
 }
 
-.links {
+ .links {
   margin: 4px auto;
   display: flex;
   justify-content: center;
@@ -68,7 +68,7 @@
   gap:2rem; 
 }
 
-.link {
+/* .link {
     
   text-decoration: none;
   color: black;
@@ -78,7 +78,29 @@
   border-radius: 10px;
   margin:1rem;
   background-color: var(--color-bg); 
- 
- 
-  
+
+} */ 
+
+.githubLink {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  margin: 1rem;
+  background-color: var(--color-bg);
+}
+
+.disabledButton {
+  background-color: #ccc;
+  color: #666;
+  cursor: not-allowed;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  text-decoration: none;
+  margin: 1rem;
+  font-size: 20px;
+  font-weight: 600;
 }
