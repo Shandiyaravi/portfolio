@@ -5,7 +5,6 @@ import Skills from './components/Skills/Skills';
 import Hero from './components/Hero/Hero';
 import NavBar from './components/NavBar/NavBar';
 import { Projects } from './components/Projects/Projects';
-import BackToTop from './components/BackToTop/BackToTop';
 
 function App() {
   return (
@@ -15,7 +14,6 @@ function App() {
       <Skills />
       <About />
       <Projects />
-      <BackToTop />
       <Footer />
     </div>
   );
