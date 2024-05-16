@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './Projects.module.css';
 
-const ProjectCard = ({ title, imageSrc, description }) => {
+const ProjectCard = ({ title, imageSrc, description, Github, Live }) => {
   return (
     <div className={styles.card}>
       <div className={styles.cardContainer}>
@@ -17,8 +17,8 @@ const ProjectCard = ({ title, imageSrc, description }) => {
           <p className={styles.description}>{description}</p>
 
           <div className={`${styles.cardBack} ${styles.face}`}>
-            <a href='#'>GitHub</a>
-            <a href='#'>Live</a>
+            <a href={Github}>GitHub</a>
+            <a href={Live}>Live</a>
           </div>
         </div>
       </div>

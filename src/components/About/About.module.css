@@ -18,7 +18,7 @@
     padding: 0.3rem 0.6rem;
     width: 100%;
     background-color: var(--color-bg);
-    font-size: 25px;
+    font-size: 35px;
     font-weight: 700;
     letter-spacing: 1.75px;
     text-transform: uppercase;
@@ -43,14 +43,14 @@
     justify-content: center;
     gap:2rem;
     color: var(--color-bg);  
-    font-size: 35px; 
+    font-size: 40px; 
    
 }
 
 
 @media screen and (max-width: 768px) {
     .list {
-        font-size: 26px;
+        font-size: 25px;
         flex-direction: column;
         align-items: flex-start;
     }

@@ -3,7 +3,7 @@ import React from 'react';
 import styles from './ProjectContainer.module.css';
 
 export const ProjectContainer = ({
-  project: { title, imageSrc, description, skills, demo, source },
+  project: { title, imageSrc, description, skills, Github, Live },
 }) => {
   return (
     <div className={styles.container}>
@@ -21,10 +21,10 @@ export const ProjectContainer = ({
           })}
         </ul>
         <div className={styles.links}>
-          <a href={demo} className={styles.link}>
+          <a href={Github} className={styles.link}>
             Github
           </a>
-          <a href={source} className={styles.link}>
+          <a href={Live} className={styles.link}>
             Live
           </a>
         </div>
