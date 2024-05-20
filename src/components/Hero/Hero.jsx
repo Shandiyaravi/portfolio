@@ -10,9 +10,8 @@ const Hero = () => {
         <div className={styles.content}>
           <h1 className={styles.title}>SHANDIYA RAVICHANDRAN</h1>
           <p className={styles.description}>
-            I'm a frontend developer student at HyperIsland looking for
-            opportunities to work with you! Reach out if you'd like to know
-            more!
+            I'm a experienced frontend developerslooking for opportunities to
+            work with you! Reach out if you'd like to know more!
           </p>
           <a href='mailto:shandiyaravi@gmail.com' className={styles.contactBtn}>
             Contact
