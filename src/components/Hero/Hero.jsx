@@ -10,7 +10,7 @@ const Hero = () => {
         <div className={styles.content}>
           <h1 className={styles.title}>SHANDIYA RAVICHANDRAN</h1>
           <p className={styles.description}>
-            I'm a experienced frontend developerslooking for opportunities to
+            I'm an experienced frontend developer looking for an opportunity to
             work with you! Reach out if you'd like to know more!
           </p>
           <a href='mailto:shandiyaravi@gmail.com' className={styles.contactBtn}>
